@@ -14,7 +14,7 @@ null,
 
 async(_,{flowDynamic})=>{
      const header = randomUseragent.getRandom();
-     const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+     const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'], ignoreDefaultArgs: ['--disable-extensions']});
      const page = await browser.newPage();
      await page.setUserAgent(header)
      await page.setViewport({ width: 1920, height: 1080 });
