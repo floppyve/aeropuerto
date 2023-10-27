@@ -1,0 +1,56 @@
+[
+  {
+    "ref": "7aa0f2ff-c971-4b37-9ad2-a5efcaad6aee",
+    "keyword": "c356cab9f955d254909d4c759c127b38",
+    "answer": "linter",
+    "options": {},
+    "from": "584128203973",
+    "refSerialize": "4381bfb9fa911759c8115319fbc29571"
+  },
+  {
+    "ref": "ans_bf6ed3a0-6080-4745-a5ef-20925731ca3d",
+    "keyword": "key_bea2f073-df1d-44ed-a6ac-fe22ee8a03b0",
+    "answer": "Conectando con el aeropuerto...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "6da4c057f952ba6c42d42d5301adb50a",
+    "from": "584128203973"
+  },
+  {
+    "ref": "2005c5a3-7e8e-45a9-84c7-6283ec94b027",
+    "answer": "``` *Vuelo*-- *Origen*-- *Hora*-- *Status*\n5R 307-->PTO ORDAZ-->06:50 06:57--> LLEGO \n_______________\nVN 220-->MARACAIBO-->07:00 07:00--> LLEGO \n_______________\n5R 1348-->MATURIN-->07:30 07:11--> LLEGO \n_______________\nQL 907-->PORLAMAR-->07:30 07:18--> LLEGO \n_______________\nES 8220-->PORLAMAR-->07:30 07:37--> LLEGO \n_______________\nBSV 2101-->METROPOLITANO-->07:30--> PROGRAMADO \n_______________\n9V 041-->BARCELONA-->07:45 07:40--> LLEGO \n_______________\n9V 061-->PTO ORDAZ-->08:00 10:00--> DEMORADO \n_______________\nSSU 3401-->LOS ROQUES-->09:00--> PROGRAMADO \n_______________\nCVZ 1702-->LOS ROQUES-->09:00--> PROGRAMADO \n_______________\nBSV 2111-->LOS ROQUES-->09:10--> PROGRAMADO \n_______________\nVO 1151-->LOS ROQUES-->09:50--> PROGRAMADO \n_______________\nVO 1187-->SAN ANTONIO-->10:00--> PROGRAMADO \n_______________\n5R 353-->BARCELONA-->10:20--> PROGRAMADO \n_______________\nES 824-->PTO ORDAZ-->10:40--> PROGRAMADO \n_______________\nES 8302-->SAN ANTONIO-->11:00--> PROGRAMADO \n_______________\nSSU 3403-->LOS ROQUES-->11:15--> PROGRAMADO \n_______________\n9V 071-->BARQUISIMETO-->11:30--> PROGRAMADO \n_______________\nVN 332-->PORLAMAR-->11:30--> PROGRAMADO \n_______________\nQL 921-->EL VIGIA-->12:00--> PROGRAMADO \n_______________\n9V 075-->MARACAIBO-->12:00--> PROGRAMADO \n_______________\n5R 326-->STO DOMINGO-->12:10--> PROGRAMADO \n_______________\nVO 1153-->LOS ROQUES-->12:40--> PROGRAMADO \n_______________\n5R 310-->PTO ORDAZ-->14:10--> PROGRAMADO \n_______________\nVO 1107-->MERIDA-->14:15--> PROGRAMADO \n_______________\nG2 4607-->LAS PIEDRAS-->14:20--> PROGRAMADO \n_______________\nES 892-->BARINAS-->14:40--> PROGRAMADO \n_______________\n9V 043-->BARCELONA-->15:30--> PROGRAMADO \n_______________\n5R 303-->PORLAMAR-->15:50--> PROGRAMADO \n_______________\nQL 971-->BARCELONA-->16:00--> PROGRAMADO \n_______________\nVN 224-->MARACAIBO-->16:00--> PROGRAMADO \n_______________\nES 862-->STO DOMINGO-->16:10--> PROGRAMADO \n_______________\nVO 057-->CUMANA-->16:30--> PROGRAMADO \n_______________\nVO 1155-->LOS ROQUES-->16:45--> PROGRAMADO \n_______________\nBSV 2113-->LOS ROQUES-->17:00--> PROGRAMADO \n_______________\nBSV 2115-->LOS ROQUES-->17:00--> PROGRAMADO \n_______________\nCVZ 1704-->LOS ROQUES-->17:00--> PROGRAMADO \n_______________\nSSU 3405-->LOS ROQUES-->17:20--> PROGRAMADO \n_______________\nVO 1161-->LOS ROQUES-->17:35--> PROGRAMADO \n_______________\nVO 1123-->ACARIGUA-->17:55--> PROGRAMADO \n_______________\n9V 077-->MARACAIBO-->18:00--> PROGRAMADO \n_______________\nCW 305-->PORLAMAR-->18:15--> PROGRAMADO \n_______________\nQL 905-->PORLAMAR-->19:10--> PROGRAMADO \n_______________\nVN 1702-->LAS PIEDRAS-->19:30--> PROGRAMADO \n_______________\nVO 011-->PORLAMAR-->19:30--> PROGRAMADO \n_______________\nVO 095-->MARACAIBO-->19:40--> PROGRAMADO \n_______________\nVO 033-->MATURIN-->20:10--> PROGRAMADO \n_______________\n ```",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "584128203973",
+    "refSerialize": "8d1c62827995bbcb0fe84f2721f3bedc"
+  },
+  {
+    "ref": "ans_7a5e3617-05f7-4dfd-9e6c-44bfc7d4ea16",
+    "keyword": "ans_bf6ed3a0-6080-4745-a5ef-20925731ca3d",
+    "answer": "llegadas",
+    "options": {
+      "media": "ejemplo.png",
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "8f945104045406d7e68fb68e0bf2f8ce",
+    "from": "584128203973"
+  }
+]
