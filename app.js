@@ -14,7 +14,16 @@ null,
 
 async(_,{flowDynamic})=>{
      const header = randomUseragent.getRandom();
-     const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'], ignoreDefaultArgs: ['--disable-extensions']});
+     const browser = await puppeteer.launch({
+                 executablePath: '/usr/bin/chromium',
+               timeout: 0,
+                args: [
+                    '--disable-gpu',
+                    '--disable-dev-shm-usage',
+                    '--disable-setuid-sandbox',
+                    '--no-sandbox'
+                ]
+            });
      const page = await browser.newPage();
      await page.setUserAgent(header)
      await page.setViewport({ width: 1920, height: 1080 });
